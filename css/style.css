@@ -267,6 +267,30 @@ section {
   gap: 12px;
 }
 
+.lang-switch {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 3px;
+  gap: 2px;
+  flex-shrink: 0;
+}
+.lang-switch a {
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--color-text-muted);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+.lang-switch a:hover { color: var(--color-primary); }
+.lang-switch a.is-active {
+  background: var(--color-primary);
+  color: #fff;
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;
