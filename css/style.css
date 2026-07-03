@@ -154,7 +154,8 @@ section {
   border: 2px solid transparent;
   cursor: pointer;
   transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-  white-space: nowrap;
+  max-width: 100%;
+  text-align: center;
 }
 
 .btn-primary {
